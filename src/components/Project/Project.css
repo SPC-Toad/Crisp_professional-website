@@ -1,0 +1,24 @@
+.project-container {
+    width: 60%;
+    min-width: 45rem;
+    max-height: 100vh;
+    background-image: linear-gradient(to right, var(--color-black) 1px, transparent 1px), linear-gradient(to left, var(--color-grey-line) 1px, transparent 1px);
+    background-size: 25% 100%;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .project-container {
+        width: 100%;
+        min-width: 0rem;
+        max-height: 100vh;
+        background-image: none;
+        background-size: auto;
+        padding-bottom: 7.5rem;
+        padding-top: 7.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

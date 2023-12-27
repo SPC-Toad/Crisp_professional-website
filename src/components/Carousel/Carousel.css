@@ -1,0 +1,100 @@
+.project-gallery-container{
+    width: 100%;
+    min-width: 51rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: transparent !important;
+    flex-direction: column;
+}
+
+
+.gallery-container {
+    width: 100%;
+    min-width: 51rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: transparent !important;
+}
+
+.deck-container {
+    width: 45rem;
+    min-width: 45rem;
+    display: flex;
+    overflow-x:hidden;
+    align-items: center;
+    overflow: hidden;
+    background: transparent !important;
+}
+
+.card-container {
+    transform: perspective(15rem) scale(.9,.9) rotateY(0deg);
+    transition: 250ms;
+}
+
+.leftActive {
+    transform: perspective(15rem) scale(.88,.88) rotateY(3deg);
+    transition-duration: 250ms;
+    background: transparent !important;
+}
+.leftActive:hover {
+    transform: perspective(15rem) scale(.95,.95) rotateY(0deg);
+    transition-duration: 250ms;
+    background: transparent !important;
+}
+
+.middleActive {
+    transform: perspective(15rem) scale(1,1) rotateY(0deg);
+    transition-duration: 250ms;
+    background: transparent !important;
+}
+.middleActive:hover {
+    transform: perspective(15rem) scale(1.1,1.1) rotateY(0deg);
+    transition-duration: 250ms;
+    background: transparent !important;
+}
+
+.rightActive {
+    transform: perspective(15rem) scale(.88,.88) rotateY(-3deg);
+    transition-duration: 250ms;
+    background: transparent !important;
+}
+.rightActive:hover {
+    transform: perspective(15rem) scale(.95,.95) rotateY(0deg);
+    transition-duration: 250ms;
+    background: transparent !important;
+}
+
+.icon-item {
+    background-color: transparent !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.dot {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.5rem;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #333;
+}

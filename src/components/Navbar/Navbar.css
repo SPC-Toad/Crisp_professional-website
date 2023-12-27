@@ -1,0 +1,61 @@
+.navbar-frame-container {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: fixed;
+    border-bottom: .1rem solid var(--color-grey-line);
+    z-index: 99;
+}
+
+.navbar-topic-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-item {
+    display: flex;
+    align-items: center;
+    font-size: var(--header-topic-font-size);
+    font-weight: var(--bold-font);
+    border-left: var(--bottom-border) solid transparent; /* Add this line */
+    padding-left: .5rem;
+}
+
+#section-item:hover {
+    transition: 200ms;
+    border-left-color: var(--color-button); /* Change this line */
+}
+
+#topic-item {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--header-topic-font-size);
+    font-weight: var(--bold-font);
+    border-bottom: var(--bottom-border) solid transparent; /* Add this line */
+}
+
+#topic-item:hover {
+    transition: 200ms;
+    border-bottom-color: var(--color-button); /* Change this line */
+}
+
+#clock-item {
+    display: flex;
+    align-items: center;
+    font-size: var(--header-topic-font-size);
+    font-weight: var(--bold-font);
+    padding-right: .5rem;
+    border-right: var(--bottom-border) solid transparent; /* Add this line */
+}
+
+#clock-item:hover {
+    transition: 200ms;
+    border-right-color: var(--color-button); /* Change this line */
+}

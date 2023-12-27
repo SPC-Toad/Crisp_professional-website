@@ -1,0 +1,52 @@
+.BusinessCard-container {
+    width: 350px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition:box-shadow 0.4s ease, outline 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.information-container {
+    width: 350px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#BusinessCard-title {
+    margin: 0.45rem 0.45rem;
+    font-size: 1.1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    z-index: 9999;
+}
+
+.card-glare-effect {
+    width: 350px;
+    height: 210px;
+    padding: 1rem;
+    position: absolute;
+    border-radius: 10px;
+    background: linear-gradient(105deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.63) 45%,
+    rgba(255, 255, 255, 0.712) 50%,
+    transparent 54%);
+    filter: brightness(1.2) opacity(0.8);
+    mix-blend-mode: color-dodge;
+    background-size: 150% 150%;
+    background-position: 100%;
+}
+                                                                                      

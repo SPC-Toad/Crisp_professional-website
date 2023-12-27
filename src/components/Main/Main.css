@@ -1,0 +1,14 @@
+.main-container {
+    width: 100%;
+    min-height: 200vh;
+}
+
+.main-body-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

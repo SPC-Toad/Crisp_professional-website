@@ -1,0 +1,49 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 40vh;
+    min-height: 20rem;
+    border: .2rem solid brown;
+    border-style: outset;
+    background-color: black !important;
+}
+
+#card-img {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+    background-color: transparent !important;
+}
+
+#card-language {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: transparent !important;
+    color: yellow;
+    font-size: var(--header-topic-font-size);
+    font-weight: var(--bold-font);
+    overflow: hidden;
+}
+
+#card-project-title {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: transparent !important;
+    color: yellow;
+    font-weight: var(--bold-font);
+    overflow: hidden;
+}
+
+#card-project-description {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: transparent !important;
+    color: yellow;
+    overflow: hidden;
+}
+
