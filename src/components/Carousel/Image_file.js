@@ -32,7 +32,6 @@ const Image_file = [
         image: blackbackground,
     },
     {
-        web_address: '',
         language: 'React Native',
         title: 'Hada',
         description: 'Hada is a Korean flashcard learning app that leverages the power of spaced repetition to optimize the learning process.',
