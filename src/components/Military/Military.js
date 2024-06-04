@@ -10,8 +10,14 @@ function Military() {
             <div id='military-title'>Military Experience</div>
         </div>
         <div className='military-right-container'>
-            <p id='military-description-bold'> I am a specialist "E-4" in United States Army Reserve, working as wheeled vehicle mechanic.</p>
-            <p id='military-description'> Supervising and performing maintenance and recovery operations on wheeled vehicles and associated items, as well as heavy-wheeled vehicles and select armored vehicles</p>
+            <p id='military-description-bold'>
+              I am a Special Agent in training with the United States Army Reserve.
+            </p>
+            <p id='military-description'>
+              Counterintelligence Agent conducts investigations, collects and processes forensic and physical evidence to
+              identify and detect foreign intelligence and international terrorist threats, and plan the appropriate
+              countermeasures to neutralize them
+            </p>
         </div>
     </div>
   )

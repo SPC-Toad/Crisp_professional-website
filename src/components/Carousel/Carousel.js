@@ -116,6 +116,7 @@ function Carousel() {
               key={index}
               >
                 <Card 
+                  web_address={component.web_address}
                   image={component.image}
                   language={component.language}
                   title={component.title}

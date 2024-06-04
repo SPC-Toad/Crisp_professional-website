@@ -86,9 +86,9 @@
 }
 
 .dot {
-    width: 1rem;
-    height: 1rem;
-    margin: 0 0.5rem;
+    width: .7rem;
+    height: .7rem;
+    margin: 0 0.3rem;
     background-color: #ccc;
     border-radius: 50%;
     cursor: pointer;

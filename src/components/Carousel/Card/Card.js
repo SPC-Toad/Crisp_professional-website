@@ -1,14 +1,15 @@
 import React from 'react'
 import './Card.css'
 
-function Card({image, language, title, description}) {
+function Card({web_address, image, language, title, description}) {
+  console.log(web_address)
   return (
-    <div className='card-container'>
+    <a href={web_address} className='card-container'>
       <img src={image} alt='card-img' id='card-img'/>
       <div id='card-language'>{language}</div>
       <div id='card-project-title'>{title}</div>
       <p id='card-project-description'>{description}</p>
-    </div>
+    </a>
   )
 }
 
